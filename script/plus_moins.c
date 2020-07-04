@@ -250,15 +250,15 @@ int main()
 		printf("\033[0;36m");
 		if(totalp1>totalp2)
 		{
-			printf("%s, vous avez ganier\n",player1);
+			printf("%s, vous avez ganier \n",player1);
 		}
 		else if(totalp2>totalp1)
 		{
-			printf("%s, vous avez ganier\n",player2);
+			printf("%s, vous avez ganier \n",player2);
 		}
 		else
 		{
-			printf("Vous etes a egaliter\n");
+			printf("Vous etes a egaliter \n");
 		}
 
 		printf("%s a %d points \n",player1,totalp1);
